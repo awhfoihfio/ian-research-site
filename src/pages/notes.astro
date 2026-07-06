@@ -1,0 +1,29 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Notes | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Notes</h1>
+      <p>
+        Short market notes, reading notes, and quick thoughts.
+      </p>
+
+      <ul>
+        <li>July Market Notes</li>
+        <li>AI Application Layer Watchlist</li>
+        <li>Uranium Supply Chain Updates</li>
+      </ul>
+    </main>
+    <Footer />
+  </body>
+</html>

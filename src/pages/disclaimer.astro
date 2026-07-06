@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Disclaimer | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Disclaimer</h1>
+
+      <p>
+        This website is for educational and research purposes only.
+        Nothing on this site is financial advice, investment advice,
+        or a recommendation to buy or sell any security.
+      </p>
+
+      <p>
+        I may hold positions in securities mentioned. Readers should do their
+        own research and consult qualified professionals before making financial decisions.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
