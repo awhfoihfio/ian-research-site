@@ -1,5 +1,5 @@
 ---
-title: "UUUU and LEU: A Uranium Supply Chain Note"
+title: "UUUU and LEU: A Uranium Supply Chain Research"
 description: "A short research note comparing Energy Fuels and Centrus Energy through uranium supply chain exposure, policy risk, and valuation risk."
 pubDate: 2026-07-06
 ---
