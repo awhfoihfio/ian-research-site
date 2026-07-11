@@ -1,7 +1,8 @@
-Jul 11, 2026
-
-# AI Memory and Storage: Structural Demand, Uneven Value Capture
-
+---
+title: "AI Memory and Storage: Structural Demand, Uneven Value Capture"
+description: "Why more bits will not eliminate either the memory wall or the memory cycle."
+pubDate: 2026-07-11
+---
 *Why more bits will not eliminate either the memory wall or the memory cycle*
 
 ## Thesis
